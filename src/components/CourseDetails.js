@@ -7,6 +7,7 @@ const CourseDetail = () => {
   const { id } = useParams(); // Get the course ID from the URL
   const dispatch = useDispatch();
   const courses = useSelector(state => state.courses.courseList);
+  console.log(courses)
   const [course, setCourse] = useState(null);
 
   useEffect(() => {
