@@ -9,7 +9,7 @@ const CourseList = () => {
   const [search, setSearch] = React.useState('');
  
   useEffect(() => {
-    fetch('http://localhost:5000/courses')
+    fetch('http://localhost:3000/courses')
       .then(response => response.json())
       .then(data => {
         console.log(data);
