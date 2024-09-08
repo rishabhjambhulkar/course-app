@@ -1,0 +1,200 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "name": "Introduction to React Native",
+        "instructor": "John Doe",
+        "description": "Learn the basics of React Native development and build your first mobile app.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "your.image.here",
+        "duration": "8 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Basic JavaScript knowledge",
+          "Familiarity with React"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to React Native",
+            "content": "Overview of React Native, setting up your development environment."
+          },
+          {
+            "week": 2,
+            "topic": "Building Your First App",
+            "content": "Creating a simple mobile app using React Native components."
+          }
+        ],
+        "students": [
+          {
+            "id": 101,
+            "name": "Alice Johnson",
+            "email": "alice@example.com"
+          },
+          {
+            "id": 102,
+            "name": "Bob Smith",
+            "email": "bob@example.com"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Advanced Python Programming",
+        "instructor": "Jane Doe",
+        "description": "Master advanced Python techniques, including data structures, algorithms, and web development.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "your.image.here",
+        "duration": "12 weeks",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 6:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Intermediate Python knowledge",
+          "Basic understanding of algorithms"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Data Structures in Python",
+            "content": "Review of lists, dictionaries, sets, and custom data structures."
+          },
+          {
+            "week": 2,
+            "topic": "Algorithm Design",
+            "content": "Learn to design and analyze algorithms."
+          }
+        ],
+        "students": [
+          {
+            "id": 103,
+            "name": "Charlie Brown",
+            "email": "charlie@example.com"
+          },
+          {
+            "id": 104,
+            "name": "Dana White",
+            "email": "dana@example.com"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Full-Stack Web Development",
+        "instructor": "Michael Scott",
+        "description": "Become a full-stack developer by learning both frontend and backend technologies.",
+        "enrollmentStatus": "Closed",
+        "thumbnail": "your.image.here",
+        "duration": "16 weeks",
+        "schedule": "Fridays, 5:00 PM - 8:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Basic HTML, CSS, JavaScript",
+          "Understanding of web technologies"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Frontend Development with HTML, CSS, and JavaScript",
+            "content": "Build responsive websites using modern frontend technologies."
+          },
+          {
+            "week": 2,
+            "topic": "Backend Development with Node.js",
+            "content": "Learn server-side development and API creation with Node.js."
+          }
+        ],
+        "students": [
+          {
+            "id": 105,
+            "name": "Emily Davis",
+            "email": "emily@example.com"
+          },
+          {
+            "id": 106,
+            "name": "Frank Wright",
+            "email": "frank@example.com"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Data Science with R",
+        "instructor": "Samantha Green",
+        "description": "Analyze data, create visualizations, and perform statistical analysis using R.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "your.image.here",
+        "duration": "10 weeks",
+        "schedule": "Tuesdays, 3:00 PM - 5:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Basic statistics knowledge",
+          "Familiarity with programming concepts"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to R Programming",
+            "content": "Getting started with R and its data analysis capabilities."
+          },
+          {
+            "week": 2,
+            "topic": "Data Manipulation with dplyr",
+            "content": "Learn to manipulate datasets using the dplyr package."
+          }
+        ],
+        "students": [
+          {
+            "id": 107,
+            "name": "Grace Lee",
+            "email": "grace@example.com"
+          },
+          {
+            "id": 108,
+            "name": "Henry Adams",
+            "email": "henry@example.com"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Machine Learning with TensorFlow",
+        "instructor": "Andrew Johnson",
+        "description": "Understand machine learning algorithms and build models using TensorFlow.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "your.image.here",
+        "duration": "14 weeks",
+        "schedule": "Wednesdays, 6:00 PM - 8:00 PM",
+        "location": "Online",
+        "prerequisites": [
+          "Basic Python knowledge",
+          "Understanding of machine learning fundamentals"
+        ],
+        "syllabus": [
+          {
+            "week": 1,
+            "topic": "Introduction to Machine Learning",
+            "content": "Overview of machine learning algorithms and use cases."
+          },
+          {
+            "week": 2,
+            "topic": "Deep Learning with TensorFlow",
+            "content": "Implement neural networks using TensorFlow."
+          }
+        ],
+        "students": [
+          {
+            "id": 109,
+            "name": "Ivy Martinez",
+            "email": "ivy@example.com"
+          },
+          {
+            "id": 110,
+            "name": "Jack Thomas",
+            "email": "jack@example.com"
+          }
+        ]
+      }
+    ]
+  }
+  
