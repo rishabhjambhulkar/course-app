@@ -10,6 +10,7 @@ const CourseDetail = () => {
   console.log(courses)
   const [course, setCourse] = useState(null);
 
+  console.log('id', id);
   useEffect(() => {
     // Find the course by ID from the Redux store
     const foundCourse = courses.find(course => course.id === id);
