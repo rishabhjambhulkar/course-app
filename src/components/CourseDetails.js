@@ -11,14 +11,20 @@ const CourseDetail = () => {
   const [course, setCourse] = useState(null);
 
   console.log('id', id);
+  
   useEffect(() => {
-    console.log('id', id, courses);
-    
-    const foundCourse = courses.find(course => course.id === id);
-
-    console.log(foundCourse)
-    setCourse(foundCourse);
+    if (courses && courses.length > 0) {
+      const filteredCourses = courses.filter(course => course.id === id);
+      if (filteredCourses.length > 0) {
+        setCourse(filteredCourses[0]);
+      } else {
+        console.error('Course not found');
+      }
+    } else {
+      console.error('Courses data is undefined or empty.');
+    }
   }, [id, courses]);
+  
 
   const handleEnroll = () => {
     console.log(course)
