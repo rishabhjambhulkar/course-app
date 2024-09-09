@@ -11,9 +11,10 @@ const CourseDetail = () => {
   const [course, setCourse] = useState(null);
 
   console.log('id', id);
-  
+
   useEffect(() => {
     if (courses && courses.length > 0) {
+      console.log(JSON.stringify(courses));
       const filteredCourses = courses.filter(course => course.id === id);
       if (filteredCourses.length > 0) {
         setCourse(filteredCourses[0]);
